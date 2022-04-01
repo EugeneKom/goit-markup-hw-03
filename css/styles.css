@@ -16,6 +16,10 @@ h6 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 body {
   color: var(--text-color);
   font-family: "Roboto", serif;
@@ -367,6 +371,10 @@ li {
   margin-bottom: 30px;
 }
 
+.work-item img {
+  display: block;
+}
+
 .work-item:nth-last-child(3n) {
   margin-left: 0;
 }
@@ -382,16 +390,16 @@ li {
   color: var(--title-color);
 
   margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .work-text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   margin-top: 4px;
 }
