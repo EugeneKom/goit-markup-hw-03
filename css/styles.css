@@ -1,0 +1,183 @@
+:root {
+  --text-color: #757575;
+  --hover-color: #2196f3;
+  --title-color: #212121;
+  --white-color: #fff;
+  --bg-section-color: #f5f4fa;
+  --bg-section-next: #e5e5e5;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Навигация */
+.header-nav {
+  background-color: var(--white-color);
+}
+.logo-color {
+  color: var(--hover-color);
+}
+.logo {
+  font-family: "Raleway", serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: var(--title-color);
+}
+.link {
+  text-decoration: none;
+}
+.contacts-link {
+  color: var(--text-color);
+}
+
+.contacts li {
+  list-style-type: none;
+}
+.navigation-list {
+  list-style-type: none;
+}
+.navigation-list-item .link {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--title-color);
+}
+.navigation-list-item .link:hover,
+.navigation-list-item .link:focus {
+  color: var(--hover-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--hover-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white-color);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  border: 0px solid var(--hover-color);
+  border-radius: 4px;
+}
+/* секция 2 особенности  */
+.qualities {
+  background-color: var(--bg-section-next);
+}
+.qualities-item {
+  list-style-type: none;
+}
+.qualities-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+/* Секция 3 чем мы занимаемся  */
+.about {
+  background-color: var(--bg-section-next);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.about-list {
+  list-style-type: none;
+}
+/* Секция 4 наша команда */
+.section-team {
+  background-color: var(--bg-section-color);
+}
+.our-team {
+  list-style-type: none;
+}
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--title-color);
+  letter-spacing: 0.03em;
+}
+.our-team-prof {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+/* footer */
+
+.addr-list {
+  list-style-type: none;
+  font-style: normal;
+}
+.logo-white {
+  color: var(--white-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.addr-item {
+  color: var(--white-color);
+}
+
+/* Portfolio */
+
+/* Кнопки */
+.btn-list {
+  list-style-type: none;
+}
+.btn-item {
+  background-color: var(--bg-section-color);
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  font-weight: 500;
+  font-family: "Roboto", serif;
+}
+.btn-item:hover,
+.btn-item:focus {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+.btn-item {
+  cursor: pointer;
+}
+
+/* Секция примеры работ  */
+
+.work-list {
+  list-style-type: none;
+}
+.work-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.work-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
