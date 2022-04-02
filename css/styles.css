@@ -5,6 +5,8 @@
   --white-color: #fff;
   --bg-section-color: #f5f4fa;
   --bg-section-next: #e5e5e5;
+  --footer-color: #2f303a;
+  --border-color: #EEEEEE;
 }
 
 h1,
@@ -18,6 +20,13 @@ h6 {
 
 p {
   margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 body {
@@ -39,7 +48,7 @@ li {
 /* Навигация */
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -52,7 +61,7 @@ li {
 
 .header-nav {
   background-color: var(--white-color);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .logo-color {
   color: var(--hover-color);
@@ -108,6 +117,7 @@ li {
   margin-left: 0px;
 }
 
+
 .navigation-list-item .link {
   font-size: 14px;
   line-height: 1.14;
@@ -130,8 +140,12 @@ li {
   color: var(--hover-color);
 }
 
+
 .hero {
-  background-color: #2f303a;
+padding-top: 200px;
+padding-bottom: 200px;
+
+background-color:var(--footer-color);
 }
 
 .hero-centr {
@@ -179,7 +193,7 @@ li {
 }
 
 .qualities {
-  background-color: var(--bg-section-next);
+  background-color: var(--white-color);
 }
 
 .qualities-list {
@@ -206,7 +220,8 @@ li {
 }
 /* Секция 3 чем мы занимаемся  */
 .about {
-  background-color: var(--bg-section-next);
+  background-color: var(--white-color);
+  padding-top: 0;
 }
 
 .section-title {
@@ -232,9 +247,7 @@ li {
   margin-left: 0;
 }
 
-.about-item > img {
-  display: block;
-}
+
 
 /* Секция 4 наша команда */
 .section-team {
@@ -255,8 +268,8 @@ li {
   margin-left: 30px;
 }
 
-.our-team-list > img {
-  display: block;
+.our-team-img {
+  margin-bottom: 30px;
 }
 
 .our-team-list:first-child {
@@ -271,7 +284,8 @@ li {
   letter-spacing: 0.03em;
   text-align: center;
 
-  padding-top: 30px;
+  margin-bottom: 10px;
+
 }
 .our-team-prof {
   font-size: 16px;
@@ -279,33 +293,38 @@ li {
   letter-spacing: 0.03em;
   text-align: center;
 
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 30px;
-  padding-top: 10px;
+  margin-bottom: 30px;
+  
 }
 /* footer */
 
-.cont-addr {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 
 .address {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .addr-list {
   font-style: normal;
 }
+
 .logo-white {
   color: var(--white-color);
 }
+
 .footer {
-  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
+  background-color: var(--footer-color);
 }
-.addr-item {
+
+.coordinates {
   color: var(--white-color);
+}
+
+.addr-item {
+  margin-bottom: 9px;
 }
 
 /* Portfolio */
@@ -361,19 +380,23 @@ li {
 .work-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  
+}
+
+.work-box {
+  padding: 20px 24px;
+
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .work-item {
-  border-bottom: 1px solid #eeeeee;
 
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
-.work-item img {
-  display: block;
-}
 
 .work-item:nth-last-child(3n) {
   margin-left: 0;
@@ -389,17 +412,12 @@ li {
   letter-spacing: 0.06em;
   color: var(--title-color);
 
-  margin-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+
 }
 .work-text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
   margin-top: 4px;
 }
