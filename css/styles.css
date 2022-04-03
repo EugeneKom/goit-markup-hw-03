@@ -54,6 +54,8 @@ li {
   margin: 0 auto;
 }
 
+
+
 .row-nav {
   display: flex;
   align-items: center;
@@ -118,6 +120,7 @@ li {
 }
 
 
+
 .navigation-list-item .link {
   font-size: 14px;
   line-height: 1.14;
@@ -128,6 +131,20 @@ li {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
+}
+
+.current {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: var(--hover-color);
+
+    text-decoration: none;
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 .navigation-list-item .link:hover,
@@ -141,6 +158,8 @@ li {
 }
 
 
+
+/* Hero */
 .hero {
 padding-top: 200px;
 padding-bottom: 200px;
